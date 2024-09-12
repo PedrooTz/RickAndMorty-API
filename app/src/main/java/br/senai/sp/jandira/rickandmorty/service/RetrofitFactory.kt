@@ -16,5 +16,8 @@ class RetrofitFactory {
     fun getCharacterService(): CharacterService{
         return retrofitFactory.create(CharacterService::class.java)
     }
+    fun getEpisodeService(): CharacterService{
+        return  retrofitFactory.create(CharacterService::class.java)
+    }
 
 }
